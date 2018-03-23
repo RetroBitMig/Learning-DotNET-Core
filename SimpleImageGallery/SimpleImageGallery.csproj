@@ -17,4 +17,7 @@
     <ProjectReference Include="..\SimpleImageGallery.Data\SimpleImageGallery.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Gallery\" />
+  </ItemGroup>
 </Project>
