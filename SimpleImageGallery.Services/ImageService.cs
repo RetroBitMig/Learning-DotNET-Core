@@ -17,7 +17,8 @@ namespace SimpleImageGallery.Services
         }
         public IEnumerable<GalleryImage> GetAll()
         {
-            return _ctx.GalleryImages.Include(img => img.Tags);
+            return _ctx.GalleryImages
+                .Include(img => img.Tags);
         }
 
         public GalleryImage GetById(int id)
