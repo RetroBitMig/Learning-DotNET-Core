@@ -17,8 +17,4 @@
     <ProjectReference Include="..\SimpleImageGallery.Data\SimpleImageGallery.Data.csproj" />
     <ProjectReference Include="..\SimpleImageGallery.Services\SimpleImageGallery.Services.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\Gallery\" />
-  </ItemGroup>
 </Project>
